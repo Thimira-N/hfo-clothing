@@ -1,26 +1,28 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@theme {
+  /* Base and backgrounds */
+  --color-royal-base: #5d3a9b; /* primary background - rich royal purple */
+  --color-deep-royal: #472b73; /* deeper purple - moodier layer */
+  --color-mauve-fade: #d6a7d1; /* soft mauve base - elegant and delicate */
+  --color-noir-velvet: #1c1c1c; /* velvet black - deep luxury */
+  --color-black-drape: #121212; /* ultra-dark black - dramatic foundation */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Accents and highlights */
+  --color-royal-gold: #cfb53b; /* gold highlight - regal accent */
+  --color-soft-lavender: #e7d3e1; /* gentle lavender - soft contrast */
+  --color-muted-amethyst: #9c7eae; /* muted purple accent - subtle richness */
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Texts */
+  --color-silk-white: #f5f3f7; /* main text - soft against dark backgrounds */
+  --color-velvet-gray: #c0b8c6; /* secondary text - gentle tone */
+
+  /* CTA / buttons */
+  --color-deep-purple-btn: #4c2f85; /* button base - bold purple CTA */
+  --color-gold-hover: #d9c85e; /* button hover - brighter gold flair */
+
+  /* Effects (hex equivalents of opacity) */
+  --color-glass-overlay: #ffffff0a; /* approx rgba(255,255,255,0.04) over black */
+  --color-border-hint: #ffffff0f; /* approx rgba(255,255,255,0.06) over black */
 }
