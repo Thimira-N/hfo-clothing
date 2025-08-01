@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={inter.className}
+        className={`${inter.className} bg-noir-velvet text-silk-white`}
       >
           {/*<Navigation />*/}
           <main>{children}</main>
