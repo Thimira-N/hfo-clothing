@@ -91,12 +91,12 @@ const AboutPage = () => {
                     It should be an extension of who you are, a reflection of your values, and a companion in your daily journey.
                     </p>
                     <p>
-                    Founded in 2020 by a team of fashion enthusiasts and sustainability advocates, HFO emerged from 
-                    the desire to create premium clothing that doesn't compromise on quality, comfort, or conscience.
+                    {`Founded in 2020 by a team of fashion enthusiasts and sustainability advocates, HFO emerged from 
+                    the desire to create premium clothing that doesn't compromise on quality, comfort, or conscience.`}
                     </p>
                     <p>
-                    Our tagline "wear it • own it • live it" represents our philosophy: when you truly connect with what 
-                    you wear, you embody confidence, authenticity, and purpose in everything you do.
+                    {`Our tagline "wear it • own it • live it" represents our philosophy: when you truly connect with what 
+                    you wear, you embody confidence, authenticity, and purpose in everything you do.`}
                     </p>
                 </div>
                 </motion.div>
@@ -168,12 +168,12 @@ const AboutPage = () => {
                 Our Mission
                 </h2>
                 <blockquote className="text-2xl sm:text-3xl leading-relaxed mb-8 text-gray-200">
-                "To create premium clothing that empowers individuals to express their authentic selves 
-                while building a more sustainable and inclusive fashion industry."
+                {`"To create premium clothing that empowers individuals to express their authentic selves 
+                while building a more sustainable and inclusive fashion industry."`}
                 </blockquote>
                 <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-                We believe that when people feel confident in what they wear, they're empowered to make 
-                positive changes in their lives and communities.
+                {`We believe that when people feel confident in what they wear, they're empowered to make 
+                positive changes in their lives and communities.`}
                 </p>
             </motion.div>
             </div>
