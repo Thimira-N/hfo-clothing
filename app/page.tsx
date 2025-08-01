@@ -57,57 +57,57 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-  {/* Background Image */}
-  <div className="absolute inset-0 z-0">
-    <img
-      src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
-      alt="Fashion Background"
-      className="w-full h-full object-cover"
-    />
-    <div className="absolute inset-0 bg-black/40"></div>
-  </div>
-
-  {/* Content */}
-  <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-    <div className="animate-fade-in-up">
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
-        wear it
-        <span className="block bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 bg-clip-text text-transparent">
-          own it
-        </span>
-        live it
-      </h1>
-      
-      <p className="text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
-        Discover premium clothing that embodies luxury, comfort, and style for the modern individual.
-      </p>
-
-      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <button className="group bg-white text-zinc-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105">
-          <span>Shop Collection</span>
-          <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-        </button>
-        
-        <button className="group border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-zinc-900 transition-all duration-300 flex items-center space-x-2">
-          <Play size={20} className="group-hover:scale-110 transition-transform" />
-          <span>Watch Story</span>
-        </button>
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          alt="Fashion Background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
-    </div>
 
-    {/* Scroll Indicator */}
-    <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-      <div className="w-1 h-12 bg-white/50 rounded-full">
-        <div className="w-1 h-3 bg-white rounded-full animate-pulse"></div>
+      {/* Content */}
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+        <div className="animate-fade-in-up">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
+            wear it
+            <span className="block bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 bg-clip-text text-transparent">
+              own it
+            </span>
+            live it
+          </h1>
+          
+          <p className="text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
+            Discover premium clothing that embodies luxury, comfort, and style for the modern individual.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <button className="group bg-white text-zinc-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-300 flex items-center space-x-2 hover:scale-105">
+              <span>Shop Collection</span>
+              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            </button>
+            
+            <button className="group border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-zinc-900 transition-all duration-300 flex items-center space-x-2">
+              <Play size={20} className="group-hover:scale-110 transition-transform" />
+              <span>Watch Story</span>
+            </button>
+          </div>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="w-1 h-12 bg-white/50 rounded-full">
+            <div className="w-1 h-3 bg-white rounded-full animate-pulse"></div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  {/* Floating Elements */}
-  <div className="absolute top-1/4 left-4 w-2 h-2 bg-yellow-400 rounded-full animate-pulse opacity-70"></div>
-  <div className="absolute top-1/3 right-8 w-3 h-3 bg-white rounded-full animate-pulse opacity-50"></div>
-  <div className="absolute bottom-1/4 left-1/4 w-1 h-1 bg-yellow-300 rounded-full animate-pulse opacity-60"></div>
-</section>
+      {/* Floating Elements */}
+      <div className="absolute top-1/4 left-4 w-2 h-2 bg-yellow-400 rounded-full animate-pulse opacity-70"></div>
+      <div className="absolute top-1/3 right-8 w-3 h-3 bg-white rounded-full animate-pulse opacity-50"></div>
+      <div className="absolute bottom-1/4 left-1/4 w-1 h-1 bg-yellow-300 rounded-full animate-pulse opacity-60"></div>
+    </section>
 
       {/* Featured Products */}
       <section className="py-16 lg:py-24 bg-white">
@@ -247,34 +247,6 @@ export default function Home() {
               </motion.div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Newsletter Section */}
-      <section className="py-16 lg:py-24 bg-gradient-to-r from-royal-purple to-dusty-mauve text-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Stay in the Loop
-            </h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Subscribe to our newsletter for exclusive offers, style tips, and early access to new collections.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500"
-              />
-              <Button className="bg-antique-gold hover:bg-antique-gold/90 text-midnight-black font-semibold px-8">
-                Subscribe
-              </Button>
-            </div>
-          </motion.div>
         </div>
       </section>
     </div>
