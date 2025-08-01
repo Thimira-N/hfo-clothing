@@ -30,7 +30,7 @@ export const products: Product[] = [
     subcategory: 'Shirts',
     description: 'Professional dress shirt crafted from premium Egyptian cotton. Perfect for business meetings and formal occasions.',
     images: [
-      'https://images.pexels.com/photos/5552789/pexels-photo-5552789.jpeg',
+      'https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg',
       'https://images.pexels.com/photos/5552790/pexels-photo-5552790.jpeg'
     ],
     colors: ['White', 'Light Blue', 'Royal Purple'],
