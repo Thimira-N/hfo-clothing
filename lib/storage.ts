@@ -52,8 +52,8 @@ export interface User {
   };
   wishlist: string[];
   recentlyViewed: string[];
-  orderHistory: any[];
-  addresses: any[];
+  orderHistory: string[];
+  addresses: string[];
 }
 
 class StorageManager {
